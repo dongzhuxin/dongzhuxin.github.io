@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Research Summary"
+title: "Research Summary:"
 permalink: /research/
 
 ---
-Biomedical engineering, the most rapidly growing of engineering disciplines from a global perspective, is now playing an irreplaceable role in the enhancement of human lifespan and its quality. At the **Biomedical Nanotechnology Laboratory**, we explore multi-disciplinary research and cutting-edge technology so that we bridge medicine and technology. Specifically, I am dedicated to achieving similar success with polypeptide sequencing to what nanopore sequencing has done to DNA so that there will be a possibility that we understand the causes of protein primary structure related diseases better and consequently come up with a solution. Moreover, solid-state nanopores have huge potential in cell secretion detection and its target molecules are selective thanks to their adjustable pore size. I am also interested in utilizing electron microscopy and atomic force microscopy in various biomedical applications, such as synthetic biology and virology, to aid clinic treatment.
+<p style="text-align:justify">Biomedical engineering, the most rapidly growing of engineering disciplines from a global perspective, is now playing an irreplaceable role in the enhancement of human lifespan and its quality. At the <b>Biomedical Nanotechnology Laboratory</b>, we explore multi-disciplinary research and cutting-edge technology so that we bridge medicine and technology. Specifically, I am dedicated to achieving similar success with polypeptide sequencing to what nanopore sequencing has done to DNA so that there will be a possibility that we understand the causes of protein primary structure related diseases better and consequently come up with a solution. Moreover, solid-state nanopores have huge potential in cell secretion detection and its target molecules are selective thanks to their adjustable geometry. I am also interested in utilizing electron microscopy and atomic force microscopy in various biomedical applications, such as synthetic biology and virology, to aid clinic treatment.</p>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -28,9 +28,9 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: blue;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -49,10 +49,10 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: grey;
+  font-size: 14px;
   padding: 8px 12px;
-  position: absolute;
+  position: bottom;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -60,7 +60,7 @@ img {vertical-align: middle;}
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: blue;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -114,19 +114,19 @@ img {vertical-align: middle;}
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="/assets/images/Research-Fig1-1.png" alt="drawing" width="1000" />
-  <div class="text">Through focus images and simulations of a subnanopore, Nature Communications, 2019</div>
+  <div class="text">Through focus images and simulations of a subnanopore, <em>Nature Communications</em>, 2019</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="/assets/images/Home-Fig2-2.png" alt="drawing" width="1000" />
-  <div class="text">Caption Two</div>
+  <img src="/assets/images/Research-Fig2-2.png" alt="drawing" width="1000" />
+  <div class="text">Correlated ionic current noise, Nature Communications, 2019</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="/assets/images/Home-Fig3-3.png" alt="drawing" width="1000" />
-  <div class="text">Caption Three</div>
+  <img src="/assets/images/Research-Fig3-3.png" alt="drawing" width="1000" />
+  <div class="text">Biomarker detection from the secretome of a cancer cell, Nano Letters, 2018</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
