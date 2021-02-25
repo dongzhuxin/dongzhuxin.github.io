@@ -58,7 +58,7 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* Number text (1/8 etc) */
 .numbertext {
   color: blue;
   font-size: 12px;
@@ -112,22 +112,53 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">1 / 8</div>
   <img src="/assets/images/Research-Fig1-1.png" alt="drawing" width="1000" />
   <div class="text">Through focus images and simulations of a subnanopore, <em>Nature Communications</em>, 2019</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext">2 / 8</div>
   <img src="/assets/images/Research-Fig2-2.png" alt="drawing" width="1000" />
-  <div class="text">Correlated ionic current noise, Nature Communications, 2019</div>
+  <div class="text">Correlated ionic current noise, <em>Nature Communications</em>, 2019</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
+  <div class="numbertext">3 / 8</div>
   <img src="/assets/images/Research-Fig3-3.png" alt="drawing" width="1000" />
-  <div class="text">Biomarker detection from the secretome of a cancer cell, Nano Letters, 2018</div>
+  <div class="text">Biomarker detection from the secretome of a cancer cell, <em>Nano Letters</em>, 2018</div>
 </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="/assets/images/Research-Fig4-4.png" alt="drawing" width="1000" />
+  <div class="text">Discriminate protein variants at single molecule level, <em>ACS Nano</em>, 2017</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="/assets/images/Research-Fig5-5.png" alt="drawing" width="1000" />
+  <div class="text">Subnanopores for protein sequencing, <em>Nature Nanotechnology</em>, 2016</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="/assets/images/Research-Fig6-6.png" alt="drawing" width="1000" />
+  <div class="text">AFM in synthetic biology, <em>Scientific Reports</em>, 2016</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="/assets/images/Research-Fig7-7.png" alt="drawing" width="1000" />
+  <div class="text">Fabrication of pH sensors for uL solutions, <em>Sensors & Actuators A: Physical</em>, 2013</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="/assets/images/Research-Fig8-8.png" alt="drawing" width="1000" />
+  <div class="text">Calibration of MEMS inertial sensors, <em>IEEE Sensors Journal</em>, 2010</div>
+</div>
+
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -139,6 +170,11 @@ img {vertical-align: middle;}
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
 </div>
 
 <script>
